@@ -82,7 +82,6 @@ footer{
     opacity: 0.7;
 }
 .banner{
-    border: 2px solid red;
     background-image: url("./assets/Hero-bg.png");
     height: 650px;
     width: 100%;
@@ -91,16 +90,44 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.common-heading{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 15px auto;
 }
 .support-section{
-    border: 2px solid red;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("./assets/handshake.jpg");
     border-radius: 12px;
-    height: 310px;
+    height: 410px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.feedback-text{
+    color: #FFFFFF;
+}
+.feedback-heading{
+    color: #FFFFFF;
+}
+.banner-btn{
+    height: 60px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: #0D1321;
+}
+.banner-link-btn{
+    text-decoration: none;
+    color: #FFFFFF;
 }
