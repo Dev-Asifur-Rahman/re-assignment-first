@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-main{
-    color:wheat
+
+main {
+    color: wheat
 }
-*{
+
+* {
     margin: 0px 5px 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Azeret Mono", monospace;
+    font-family: "Azeret Mono", monospace;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px 35px;
 }
-.name{
+
+.name {
     color: rgb(13, 19, 33);
     font-size: 26px;
     font-weight: 800;
 }
-.nav-button{
+
+.nav-button {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -31,23 +36,26 @@ nav{
     cursor: pointer;
 
 }
-.footer-name{
-color: #0D1321;
-font-weight: 600;
-font-size: 20px;
-text-align: center;
+
+.footer-name {
+    color: #0D1321;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
 }
-footer{
+
+footer {
     height: 80px;
     border-radius: 12px;
     padding: 0px 15px;
     background: rgba(13, 19, 33, 0.03);
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 5px;
 }
-.learn-btn{
+
+.learn-btn {
     position: static;
     width: 171px;
     height: 47px;
@@ -64,7 +72,8 @@ footer{
     color: rgb(13, 19, 33);
     font-weight: 500;
 }
-.heading{
+
+.heading {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -72,7 +81,8 @@ footer{
     letter-spacing: 0%;
     text-align: center;
 }
-.text{
+
+.text {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -81,7 +91,8 @@ footer{
     text-align: center;
     opacity: 0.7;
 }
-.banner{
+
+.banner {
     background-image: url("./assets/Hero-bg.png");
     height: 650px;
     width: 100%;
@@ -95,7 +106,8 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.common-heading{
+
+.common-heading {
     height: 150px;
     display: flex;
     justify-content: center;
@@ -104,30 +116,141 @@ footer{
     gap: 25px;
     margin: 15px auto;
 }
-.support-section{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("./assets/handshake.jpg");
+
+.support-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/handshake.jpg");
     border-radius: 12px;
     height: 410px;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.feedback-text{
+
+.feedback-text {
     color: #FFFFFF;
 }
-.feedback-heading{
+
+.feedback-heading {
     color: #FFFFFF;
 }
-.banner-btn{
+
+.banner-btn {
     height: 60px;
     width: 240px;
     border-radius: 8px;
     background-color: #0D1321;
 }
-.banner-link-btn{
+
+.banner-link-btn {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.about-development {
+    width: 80%;
+    background-color: #0D132105;
+    margin: 0px auto;
+    border-radius: 12px;
+}
+
+.feedback-input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.feedback-btn {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: #0D1321;
+    font-weight: 600;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+.current-target {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html {
+    background-color: #FF4C1E0D;
+    border-radius: 12px;
+    height: 300px;
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.css {
+    background-color: #004CE80D;
+    border-radius: 12px;
+    height: 300px;
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.java {
+    background-color: #FFDF000D;
+    border-radius: 12px;
+    height: 300px;
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.target-heading {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0%;
+}
+
+.target-text {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.target-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
