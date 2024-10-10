@@ -81,3 +81,26 @@ footer{
     text-align: center;
     opacity: 0.7;
 }
+.banner{
+    border: 2px solid red;
+    background-image: url("./assets/Hero-bg.png");
+    height: 650px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.support-section{
+    border: 2px solid red;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("./assets/handshake.jpg");
+    border-radius: 12px;
+    height: 310px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
