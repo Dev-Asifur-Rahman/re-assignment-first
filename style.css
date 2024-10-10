@@ -59,6 +59,7 @@ footer {
     position: static;
     width: 171px;
     height: 47px;
+    border-radius: 8px;
     border: 1px solid rgb(13, 19, 33);
     display: flex;
     flex-direction: row;
@@ -66,7 +67,6 @@ footer {
     align-items: center;
     gap: 10;
     padding: 12px 20px 12px 20px;
-    margin: 32px 0px;
     box-sizing: border-box;
     opacity: 0.7;
     color: rgb(13, 19, 33);
@@ -94,7 +94,7 @@ footer {
 
 .banner {
     background-image: url("./assets/Hero-bg.png");
-    height: 650px;
+    height: 550px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -156,11 +156,59 @@ footer {
 
 .about-development {
     width: 80%;
+    height: 1400px;
     background-color: #0D132105;
     margin: 0px auto;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.dev-1{
+    background-color:#FFFFFF;
+    margin: 15px 40px;
+    display: flex;
+    height: 350px;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+.dev-2{
+    background-color:#FFFFFF;
+    display: flex;
+    height: 350px;
+    border-radius: 12px;
+    margin: 15px 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+.dev-3{
+    background-color:#FFFFFF;
+    margin: 15px 40px;
+    display: flex;
+    height: 350px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-dev{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-heading{
+    color: #0D1321B3;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.text-description{
+    color: #0D1321;
+    font-weight: 400;
+    font-size: 16px;
+}
 .feedback-input {
     width: 548px;
     height: 57px;
